@@ -118,5 +118,3 @@ It may not be copied, modified, reused, or redistributed in any form without *pr
 *All rights reserved.*
 
 ---
-
-هل ترغبين أن أرسل لك النسخة كـ:

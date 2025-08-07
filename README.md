@@ -1,49 +1,122 @@
+ 🔷 مشروع: وكيل ذكاء اصطناعي يعمل أوفلاين
 
-# 🧠 Offline AI Agent - GPT OSS Project Submission
+ 🔷 Project: Offline AI Agent
 
-## 🎯 Project Overview
-A fully offline, local intelligent assistant built on the gpt-oss models by OpenAI.  
-This system allows users to interact with powerful LLMs without requiring internet access, ensuring data privacy and high availability in isolated environments.
+---
 
-## 🛠️ Core Features
-- Works completely offline using gpt-oss-120B.
-- Integrates a custom Prompt Engineering interface.
-- No cloud, no telemetry, full data control.
-- Designed for edge devices or local PCs.
-- Arabic-English bilingual interface and outputs.
-- Prompt optimization and local inference pipeline.
+ 📌 نبذة عن المشروع | Project Overview:
 
-## 🚀 Project Stack
-- **Model**: gpt-oss-120B / 20B
-- **Serving**: Ollama + vLLM
-- **UI**: Local web interface (React/FastAPI)
-- **Toolkit**: Custom Arabic-English Prompt Editor
-- **Hardware**: GPU-powered local server
+نظام ذكاء اصطناعي يعمل بالكامل بدون إنترنت، يتيح تنفيذ المهام الذكية محليًا باستخدام نماذج LLM وتشغيلها بأمان وخصوصية.
 
-## 🧰 Folders
-- `src/`: Source code for local agent, serving, UI, etc.
-- `docs/`: Documentation and guides.
-- `assets/`: Images, interface screenshots, logos.
-- `models/`: Configs or links for gpt-oss weights.
-- `data/`: Sample queries, outputs, tests.
+An AI system that runs completely *offline*, enabling smart task execution locally using LLMs with full privacy and security.
 
-## 📄 How To Run
-```bash
-# 1. Install Ollama + download gpt-oss model
-# 2. Run backend serving script from src/
-# 3. Launch local UI
-# 4. Interact with the system offline
-```
+---
 
-## 💬 Bilingual Support
-All commands, prompts, and UI elements are fully bilingual (AR/EN), enhancing accessibility and adoption.
+ 🎯 الأهداف | Objectives:
 
-## 👩‍💻 Built by:
-**مهندسة أوامر**  
-Expert in AI Prompt Engineering  
-[LinkedIn Profile](#) ← Replace with your actual profile.
+* تشغيل نموذج ذكاء اصطناعي بدون الحاجة للاتصال بالإنترنت.
 
-## 🔗 Submission Info
-Prepared for the **OpenAI GPT-OSS Hackathon 2025**  
-> Let's build AI that’s truly yours — private, local, powerful.
+* تمكين المستخدم من التفاعل مع وكيل ذكي ينفذ مهام تلقائية.
 
+* دعم تخصيص المعرفة وتشغيل البرومبتات المتقدمة.
+
+* Run an AI model *without internet connection*.
+
+* Empower users with an intelligent agent for automated tasks.
+
+* Support custom knowledge and advanced prompt execution.
+
+---
+
+ ⚙ المكونات التقنية | Technical Components:
+
+* نماذج ذكاء اصطناعي تعمل محليًا (مثل Mistral، LLaMA، Phi).
+
+* واجهة CLI/GUI للتفاعل المباشر مع المستخدم.
+
+* تكامل مع LangChain / LlamaIndex (قابل للتعديل).
+
+* قاعدة معرفية مصغرة للتخصيص الداخلي.
+
+* نظام إدارة مهام آلي متعدد الوكلاء.
+
+* Locally running LLMs (e.g., Mistral, LLaMA, Phi).
+
+* CLI/GUI interface for user interaction.
+
+* Integration with LangChain / LlamaIndex (optional).
+
+* Lightweight customizable knowledge base.
+
+* Multi-agent task automation system.
+
+---
+
+ 🧠 المهارات المستخدمة | Applied Skills:
+
+* هندسة أوامر Prompt Engineering متقدمة جدًا.
+
+* بناء برومبتات باستخدام Few-shot, CoT, Instruction-based.
+
+* إدارة السياق واستدعاء المعرفة الداخلية.
+
+* تصميم وكيل ذكي متعدد المهام والقدرات.
+
+* Advanced Prompt Engineering.
+
+* Building prompts using Few-shot, CoT, and Instruction-based methods.
+
+* Context management and internal memory utilization.
+
+* Designing intelligent multi-agent systems.
+
+---
+ 🧪 حالات الاستخدام | Use Cases:
+
+* مساعد ذكي للمؤسسات الحساسة بدون إنترنت.
+
+* بيئة تعليمية للذكاء الاصطناعي للجامعات والمدارس.
+
+* دعم الأنظمة المغلقة في القطاع الطبي أو الأمني.
+
+* أدوات ذكية للتصميم، الكتابة، تحليل البيانات، البرمجة.
+
+* Smart assistant for sensitive environments (offline).
+
+* Educational AI sandbox for universities and schools.
+
+* Secure AI support for healthcare and security sectors.
+
+* Smart tools for design, writing, data analysis, and coding.
+
+---
+
+ 👩‍💻 المطورة | Developer:
+
+*آية محمد*
+مهندسة أوامر ذكاء اصطناعي – محترفة في بناء برومبتات متقدمة
+خبرة في تشغيل حلول الذكاء الاصطناعي بدون اتصال
+مبتكرة في بناء حلول فعالة قابلة للتنفيذ محليًا وآمنة بالكامل
+
+*Aya Mohamed*
+AI Prompt Engineer – Expert in advanced prompt design
+Experienced in offline AI systems
+Innovator in creating secure and executable AI solutions
+
+🔗 [ملف LinkedIn الشخصي | LinkedIn Profile](https://linkedin.com/in/aya-mohamed-aiprompt-specialist-engineer)
+
+---
+
+ 🚫 حقوق الملكية | Intellectual Property:
+
+هذا المشروع هو ملكية فكرية حصرية لـ *آية محمد*
+لا يُسمح بنسخه أو تعديله أو استخدام أي جزء منه أو إعادة نشره دون إذن كتابي رسمي.
+جميع الحقوق محفوظة بالكامل.
+
+This project is the *exclusive intellectual property* of *Aya Mohamed*.
+It may not be copied, modified, reused, or redistributed in any form without *prior written permission*.
+*All rights reserved.*
+
+---
+
+هل ترغبين أن أرسل لك النسخة كـ:
